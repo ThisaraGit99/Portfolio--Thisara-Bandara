@@ -1,6 +1,11 @@
 {
   "name": "Thisara | Software Developer",
   "short_name": "Thisara",
+  "description": "Software Developer Portfolio showcasing web development projects, skills, and professional experience.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "/profilepic.jpg",
@@ -12,8 +17,5 @@
       "sizes": "512x512",
       "type": "image/jpeg"
     }
-  ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  ]
 } 
