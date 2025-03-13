@@ -1,0 +1,62 @@
+/* Animated underline for section headers */
+.animated-underline {
+  position: relative;
+  overflow: hidden;
+  animation: expandWidth 2.5s ease-out forwards;
+  transform-origin: left;
+  animation-iteration-count: infinite;
+  animation-delay: 6s;
+}
+
+@keyframes expandWidth {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+/* Navigation underline animation */
+.animate-expandWidth {
+  animation: expandWidth 0.3s ease-out forwards;
+}
+
+/* Continuous blue border animation for skill cards */
+@keyframes borderGlow {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+@keyframes activeBorderPulse {
+  0% {
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.3);
+  }
+}
+
+/* Subtle background icons animation */
+.animate-float-slow {
+  animation: floatSlow 12s ease-in-out infinite;
+}
+
+@keyframes floatSlow {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
