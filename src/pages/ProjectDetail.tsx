@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { projects } from '../data/projects';
@@ -8,6 +8,7 @@ const ProjectDetail = () => {
   const { id } = useParams<{ id: string }>();
   const [project, setProject] = useState<any>(null);
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
     // Find project by id
@@ -25,15 +26,7 @@ const ProjectDetail = () => {
 
   const handleBackClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    // First navigate to home page
-    window.location.href = '/';
-    // After a short delay, scroll to projects section
-    setTimeout(() => {
-      const projectsSection = document.getElementById('projects');
-      if (projectsSection) {
-        projectsSection.scrollIntoView({ behavior: 'smooth' });
-      }
-    }, 100);
+    navigate('/');
   };
 
   if (loading) {
