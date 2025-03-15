@@ -110,7 +110,7 @@ const About = () => {
                 </a>
                 
                 <a
-                  href="/CV_Thisara.pdf"
+                  href="/Portfolio--Thisara-Bandara/CV_Thisara.pdf"
                   className="hire-me-btn px-8 py-3 bg-secondary/70 text-white-off rounded-md hover:bg-secondary transition-all duration-300 font-medium flex items-center justify-center gap-2 backdrop-blur-sm group relative overflow-hidden"
                   target="_blank"
                   rel="noopener noreferrer"
