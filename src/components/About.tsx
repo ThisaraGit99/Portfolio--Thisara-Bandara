@@ -46,7 +46,7 @@ const About = () => {
               <div className="absolute inset-0 bg-blue-accent/20 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-500 opacity-70"></div>
               <div className="overflow-hidden rounded-xl border border-white/10 relative">
                 <img 
-                  src="/profilepic.jpg" 
+                  src="/Portfolio--Thisara-Bandara/profilepic.jpg" 
                   alt="Thisara Navod Bandara" 
                   className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
