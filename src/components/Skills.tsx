@@ -67,7 +67,7 @@ const Skills = () => {
     },
     {
       name: 'Laravel',
-      icon: '/laravel-svgrepo-com.svg',
+      icon: '/Portfolio--Thisara-Bandara/laravel-svgrepo-com.svg',
       color: '#FF2D20',
       category: 'framework'
     },
